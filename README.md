@@ -66,6 +66,30 @@ This repository is organized to showcase projects across different phases of my 
 * [Interactive Platform](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/AI-Hiring-Platform.html) - Mavericks International Demo
 - Research Documentation - Comprehensive project report
 
+- ### 02. FilmFlow Pro: Enterprise Film Production Management Platform
+
+**Course:** MBA - Strategic Management & Operations | **Semester:** 1, 2025
+
+**Developer:** Omkar Gura
+
+**Focus:** AI-powered production management, bottleneck detection, real-time collaboration
+
+**Project Highlights:**
+- Enterprise cloud-based platform for film production workflow automation
+- PERT analysis and predictive bottleneck detection (3-5 days in advance)
+- Multi-role access control (Producer, Director, Editor, DOP, etc.)
+- 50-80% reduction in production timeline delays vs. industry standard
+- Real-time team collaboration and automated task management
+- DIKW model application for data-driven decision making
+- Scalable three-tier cloud architecture with AES-256 security
+
+**Deliverables:**
+- [Project README](./02-FilmFlow-Production-Management/README.md) - Complete project documentation
+- [Interactive Platform](https://omkargurav-growth.github.io/My-Projects-Portfolio/02-FilmFlow-Production-Management/index.html) - Live dashboard with analytics
+- Research Documentation - Comprehensive business case study
+
+---
+
 **Key Insights:**
 - AI reduces time-to-hire by 40-60%
 - Cost reduction in screening: 50-70%
