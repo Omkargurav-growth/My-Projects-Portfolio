@@ -67,7 +67,7 @@ This repository is organized to showcase projects across different phases of my 
 
 **Deliverables:**
 - [Project README](./01-AI-in-HR-Talent-Analysis/README.md) - Detailed analysis and findings
-- [Interactive Platform](./01-AI-in-HR-Talent-Analysis/AI-Hiring-Platform.html) - Mavericks International Demo
+* [Interactive Platform](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/AI-Hiring-Platform.html) - Mavericks International Demo
 - Research Documentation - Comprehensive project report
 
 **Key Insights:**
