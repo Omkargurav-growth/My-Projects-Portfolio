@@ -20,21 +20,17 @@ Showcasing my journey from technical engineering to strategic business managemen
 
 This repository is organized to showcase projects across different phases of my career:
 
-### 1. **Engineering Projects**
-   - Technical implementations and coursework
-   - Software development and system designs 
-
-### 2. **Business & Strategy Projects**
+### 1. **Business & Strategy Projects**
    - Marketing case studies
    - Market research and consumer behavior analysis
    - Business strategy and financial analysis
 
-### 3. **Data Analytics Projects**
+### 2. **Data Analytics Projects**
    - Data visualization and business intelligence
    - Market analysis using statistical methods
    - Performance analytics and reporting
 
-### 4. **E-Commerce & Retail Projects**
+### 3. **E-Commerce & Retail Projects**
    - E-commerce business models
    - Retail management strategies
    - Digital marketing campaigns
@@ -79,6 +75,12 @@ This repository is organized to showcase projects across different phases of my 
 ---
 
 ---
+
+### 4. **Engineering Projects**
+   - Technical implementations and coursework
+   - Software development and system designs 
+
+
 
 ## Education
 
