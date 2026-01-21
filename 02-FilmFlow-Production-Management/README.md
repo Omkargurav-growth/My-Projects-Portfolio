@@ -11,7 +11,7 @@
 - ✅ No installation required - direct browser access
 
 ### 📊 PROJECT PRESENTATION (Quick Overview)
-🔗 **[View Project Case Study](https://omkargurav-growth.github.io/My-Projects-Portfolio/02-FilmFlow-Production-Management/DBS_Visionary_Disrubtors_SEC_K.docx)**
+🔗 **[View Project Case Study](https://raw.githubusercontent.com/Omkargurav-growth/My-Projects-Portfolio/main/02-FilmFlow-Production-Management/DBS_Visionary_Disrubtors_SEC_K.docx)**
 
 - Comprehensive research and analysis document
 - Key findings and business impact metrics
@@ -23,7 +23,6 @@
 ## 📋 Project Details
 
 **Developer:** Omkar Gurav  
-**Co-Developer/Co-Founder:** Arnav Lai  
 **Course:** MBA - Strategic Management & Operations  
 **Date:** Semester 1, 2025  
 **Submitted to:** Dr. Gowtham Kundu  
