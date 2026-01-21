@@ -9,7 +9,7 @@
 - No installation required - just click and explore
 
 ### 📝 **PROJECT PRESENTATION** (Quick Overview)
-🔗 **[View Detailed Analysis](https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/main/01-AI-in-HR-Talent-Analysis/README.md)**
+🔗 **[View Detailed Analysis](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/AI-Hiring-Platform.html)**
 - Comprehensive project overview
 - Key findings and insights
 - Business impact metrics
