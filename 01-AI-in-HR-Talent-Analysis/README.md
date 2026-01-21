@@ -1,27 +1,27 @@
 # AI in Human Resources: Talent Analysis & Resume Screening
 
-## 🎯 Quick Links for HR Professionals
+## Quick Links for HR Professionals
 
-### 📊 **INTERACTIVE DEMO** (Try it directly)
+### **INTERACTIVE DEMO** (Try it directly)
 🔗 **[Open Interactive Platform](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/Mavericks_AI_Hiring_Platform.html)**
 - Fully functional AI-powered recruitment interface
 - See the complete platform in action
 - No installation required - just click and explore
 
-### 📝 **PROJECT PRESENTATION** (Quick Overview)
+### **PROJECT PRESENTATION** (Quick Overview)
 🔗 **[View Detailed Analysis](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/Mavericks_AI_Hiring_Platform.html)**
 - Comprehensive project overview
 - Key findings and insights
 - Business impact metrics
 
-### 📚 **RESEARCH DOCUMENT** (Deep Dive)
+### **RESEARCH DOCUMENT** (Deep Dive)
 🔗 **[Download Complete Documentation](https://github.com/Omkargurav-growth/My-Projects-Portfolio/tree/main/01-AI-in-HR-Talent-Analysis)**
 - AFM_Final_Project.docx - Full research analysis
 - Course details and academic submission
 
 ---
 
-## 📋 Project Details
+## Project Details
 
 **Course:** MBA - AI For Managers  
 **Submitted to:** Dr. Gowtham Kundu  
@@ -30,7 +30,7 @@
 
 ---
 
-## 💼 What This Project Demonstrates
+## What This Project Demonstrates
 
 ✅ **AI in Recruitment** - How artificial intelligence transforms HR processes  
 ✅ **Resume Screening** - Automated candidate evaluation using AI  
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 Key Features of the Platform
+## Key Features of the Platform
 
 - **Dual Login System** - Separate interfaces for Candidates and HR Managers
 - **AI Chatbox** - Intelligent assistant for interview preparation and support
@@ -51,7 +51,7 @@
 
 ---
 
-## 📊 Business Impact Metrics
+## Business Impact Metrics
 
 | Metric | Impact |
 |--------|--------|
@@ -62,7 +62,7 @@
 
 ---
 
-## 🎓 Project Objectives
+## Project Objectives
 
 1. **Understand AI's Role in HR** - Analyze AI's impact on HR management
 2. **Resume Screening Automation** - Explore AI-powered ATS systems
@@ -72,7 +72,7 @@
 
 ---
 
-## 📂 Files in This Project
+## Files in This Project
 
 - **Mavericks_AI_Hiring_Platform.html** - Interactive recruitment platform demo
 - **README.md** - This file
@@ -80,7 +80,7 @@
 
 ---
 
-## 👤 Developer
+##  Developer
 
 **Omkar Gurav**  
 MBA Student | Alliance University  
