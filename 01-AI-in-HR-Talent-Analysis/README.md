@@ -3,13 +3,13 @@
 ## 🎯 Quick Links for HR Professionals
 
 ### 📊 **INTERACTIVE DEMO** (Try it directly)
-🔗 **[Open Interactive Platform](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/AI-Hiring-Platform.html)**
+🔗 **[Open Interactive Platform](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/Mavericks_AI_Hiring_Platform.html)**
 - Fully functional AI-powered recruitment interface
 - See the complete platform in action
 - No installation required - just click and explore
 
 ### 📝 **PROJECT PRESENTATION** (Quick Overview)
-🔗 **[View Detailed Analysis](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/AI-Hiring-Platform.html)**
+🔗 **[View Detailed Analysis](https://omkargurav-growth.github.io/My-Projects-Portfolio/01-AI-in-HR-Talent-Analysis/Mavericks_AI_Hiring_Platform.html)**
 - Comprehensive project overview
 - Key findings and insights
 - Business impact metrics
@@ -74,7 +74,7 @@
 
 ## 📂 Files in This Project
 
-- **AI-Hiring-Platform.html** - Interactive recruitment platform demo
+- **Mavericks_AI_Hiring_Platform.html** - Interactive recruitment platform demo
 - **README.md** - This file
 - **AFM_Final_Project.docx** - Complete research documentation
 
