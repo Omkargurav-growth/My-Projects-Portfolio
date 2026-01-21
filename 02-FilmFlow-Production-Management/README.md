@@ -3,7 +3,7 @@
 ## Quick Links for Industry Professionals
 
 ### INTERACTIVE PLATFORM (Try it directly)
-🔗 **[Open FilmFlow Pro Dashboard]()**
+🔗 **[Open FilmFlow Pro Dashboard](https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/ef607165a1f2adceac7f942e4c8c765e04bb5096/02-FilmFlow-Production-Management/index.html)**
 
 - ✅ Fully functional production management interface
 - ✅ Real-time project tracking and bottleneck detection
