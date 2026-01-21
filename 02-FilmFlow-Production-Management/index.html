@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFlow360 - Film Production Management Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo-container">
+            <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/c62b357a-a7ac-4a03-9440-300d53f66875.png" alt="FilmFlow360 Logo" class="logo">
+            <h2 class="logo-text">FilmFlow360</h2>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#" class="nav-link active" data-page="dashboard">📊 Dashboard</a></li>
+            <li><a href="#" class="nav-link" data-page="projects">🎬 Projects</a></li>
+            <li><a href="#" class="nav-link" data-page="bottlenecks">⚠️ Bottlenecks</a></li>
+            <li><a href="#" class="nav-link" data-page="team">👥 Team</a></li>
+            <li><a href="#" class="nav-link" data-page="reports">📈 Reports</a></li>
+            <li><a href="#" class="nav-link" data-page="issues">🎫 Issues</a></li>
+        </ul>
+        <div class="user-profile">
+            <div class="user-avatar">👤</div>
+            <div class="user-info">
+                <div class="user-name" id="currentUserName">Admin User</div>
+                <div class="user-role" id="currentUserRole">System Administrator</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Dashboard Page -->
+        <div class="page active" id="dashboard-page">
+            <header class="page-header">
+                <h1>Dashboard</h1>
+                <p class="tagline">From Script to Screen, Seamlessly</p>
+            </header>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">🎬</div>
+                    <div class="metric-content">
+                        <div class="metric-value">13</div>
+                        <div class="metric-label">Total Projects</div>
+                        <div class="metric-detail">10 Completed • 3 Ongoing</div>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">⏱️</div>
+                    <div class="metric-content">
+                        <div class="metric-value">60%</div>
+                        <div class="metric-label">Timeline Reduction</div>
+                        <div class="metric-detail">Average improvement</div>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">👥</div>
+                    <div class="metric-content">
+                        <div class="metric-value">10</div>
+                        <div class="metric-label">Active Users</div>
+                        <div class="metric-detail">Departments connected</div>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">✅</div>
+                    <div class="metric-content">
+                        <div class="metric-value">95%</div>
+                        <div class="metric-label">Issues Resolved</div>
+                        <div class="metric-detail">86 of 90 total issues</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-sections">
+                <div class="section-card">
+                    <h3>🎯 Platform Overview</h3>
+                    <p>FilmFlow360 is a revolutionary cloud-based project management platform designed specifically for the film production industry. Our system addresses the critical challenge of project timeline overruns that plague the industry.</p>
+                    <div class="highlight-box">
+                        <strong>Problem Statement:</strong> Film productions typically exceed their estimated timelines by 50-100%, causing budget overruns and missed opportunities.
+                    </div>
+                    <div class="highlight-box success">
+                        <strong>Our Solution:</strong> Real-time collaboration, automated notifications, bottleneck detection, and comprehensive project tracking - all in one platform.
+                    </div>
+                </div>
+
+                <div class="section-card">
+                    <h3>📊 Recent Activity</h3>
+                    <div class="activity-list" id="activityList">
+                        <div class="activity-item">
+                            <span class="activity-time">2 mins ago</span>
+                            <span class="activity-text">Editor User completed "Video Editing" for Awakening</span>
+                        </div>
+                        <div class="activity-item">
+                            <span class="activity-time">15 mins ago</span>
+                            <span class="activity-text">New issue raised in Fragments - Severity: Medium</span>
+                        </div>
+                        <div class="activity-item">
+                            <span class="activity-time">1 hour ago</span>
+                            <span class="activity-text">Essence reached 50% completion milestone</span>
+                        </div>
+                        <div class="activity-item">
+                            <span class="activity-time">3 hours ago</span>
+                            <span class="activity-text">Cinematographer User uploaded footage for Awakening</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Page -->
+        <div class="page" id="projects-page">
+            <header class="page-header">
+                <h1>Projects</h1>
+                <div class="header-actions">
+                    <div class="filter-tabs">
+                        <button class="filter-tab active" data-filter="all">All (13)</button>
+                        <button class="filter-tab" data-filter="completed">Completed (10)</button>
+                        <button class="filter-tab" data-filter="ongoing">Ongoing (3)</button>
+                    </div>
+                </div>
+            </header>
+
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+
+        <!-- Project Detail Page -->
+        <div class="page" id="project-detail-page">
+            <header class="page-header">
+                <button class="back-button" id="backToProjects">← Back to Projects</button>
+                <h1 id="projectDetailTitle"></h1>
+            </header>
+            <div id="projectDetailContent"></div>
+        </div>
+
+        <!-- Bottlenecks Page -->
+        <div class="page" id="bottlenecks-page">
+            <header class="page-header">
+                <h1>Bottleneck Detection</h1>
+                <p class="subtitle">AI-Powered Analysis of Production Delays</p>
+            </header>
+
+            <div class="bottleneck-overview">
+                <div class="info-card">
+                    <h3>🤖 AI Analysis</h3>
+                    <p>Our platform uses machine learning to analyze historical project data and identify recurring bottlenecks across all production phases. This predictive analysis helps teams anticipate and mitigate delays before they impact timelines.</p>
+                </div>
+            </div>
+
+            <div class="bottlenecks-grid" id="bottlenecksGrid"></div>
+
+            <div class="section-card" style="margin-top: 2rem;">
+                <h3>📊 Bottleneck Impact Analysis</h3>
+                <canvas id="bottleneckChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Team Page -->
+        <div class="page" id="team-page">
+            <header class="page-header">
+                <h1>Team Members</h1>
+                <p class="subtitle">10 Departments Connected</p>
+            </header>
+
+            <div class="team-grid" id="teamGrid"></div>
+
+            <div class="section-card" style="margin-top: 2rem;">
+                <h3>🔐 Login Credentials Reference</h3>
+                <p>Click on any team member card to simulate viewing the platform from their perspective. Each role has customized access levels and dashboard views.</p>
+                <div class="credentials-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User ID</th>
+                                <th>Department</th>
+                                <th>Login ID</th>
+                                <th>Access Level</th>
+                            </tr>
+                        </thead>
+                        <tbody id="credentialsTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reports Page -->
+        <div class="page" id="reports-page">
+            <header class="page-header">
+                <h1>Reports &amp; Analytics</h1>
+                <div class="header-actions">
+                    <button class="btn-secondary" onclick="alert('Export functionality would generate PDF/Excel reports')">📥 Export Report</button>
+                </div>
+            </header>
+
+            <div class="reports-grid">
+                <div class="section-card">
+                    <h3>⏱️ Timeline Analysis (Estimated vs Actual)</h3>
+                    <canvas id="timelineChart"></canvas>
+                </div>
+
+                <div class="section-card">
+                    <h3>💰 Budget Distribution</h3>
+                    <canvas id="budgetChart"></canvas>
+                </div>
+
+                <div class="section-card full-width">
+                    <h3>📊 PERT Analysis Model</h3>
+                    <p>Program Evaluation and Review Technique (PERT) is used to analyze and represent the tasks involved in completing a project. Below is our PERT-based timeline calculation for typical short film production:</p>
+                    <div class="pert-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Phase</th>
+                                    <th>Task</th>
+                                    <th>Optimistic (days)</th>
+                                    <th>Most Likely (days)</th>
+                                    <th>Pessimistic (days)</th>
+                                    <th>Expected Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="7">Pre-Production</td>
+                                    <td>Script Development</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>14</td>
+                                    <td>8.5 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Storyboarding</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>5.2 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Casting</td>
+                                    <td>4</td>
+                                    <td>7</td>
+                                    <td>12</td>
+                                    <td>7.3 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Location Scouting</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>7</td>
+                                    <td>4.2 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Equipment Arrangement</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>3.2 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Rehearsals</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>7</td>
+                                    <td>5.0 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Pre-Production Meeting</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>1.2 days</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="5">Production</td>
+                                    <td>Principal Photography Day 1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>1.2 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Principal Photography Day 2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>1.2 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Principal Photography Day 3</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>1.2 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Additional Shots</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>2.2 days</td>
+                                </tr>
+                                <tr>
+                                    <td>B-Roll Capture</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>2.0 days</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="5">Post-Production</td>
+                                    <td>Video Editing</td>
+                                    <td>7</td>
+                                    <td>12</td>
+                                    <td>20</td>
+                                    <td>12.5 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Sound Design &amp; Music</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>14</td>
+                                    <td>8.5 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Color Grading</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>9</td>
+                                    <td>5.3 days</td>
+                                </tr>
+                                <tr>
+                                    <td>VFX &amp; Graphics</td>
+                                    <td>5</td>
+                                    <td>10</td>
+                                    <td>18</td>
+                                    <td>10.5 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Final Export &amp; Delivery</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>2.2 days</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="5"><strong>Total Estimated Time</strong></td>
+                                    <td><strong>~50 days</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="highlight-box" style="margin-top: 1rem;">
+                        <strong>PERT Formula:</strong> Expected Time = (Optimistic + 4 × Most Likely + Pessimistic) / 6
+                        <br><br>
+                        <strong>Finding:</strong> Without proper management, actual completion time increases to 80-90 days (60-80% delay). FilmFlow360 reduces this to 55-60 days (10-20% delay).
+                    </div>
+                </div>
+
+                <div class="section-card">
+                    <h3>🎨 DIKW Model</h3>
+                    <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2083ebf13a9a1182c61c2dd0dd20dc0d/b705acf7-3833-489a-b68c-31467cf59b5c/2b1562fe.png" alt="DIKW Pyramid" class="dikw-image">
+                    <p style="margin-top: 1rem;"><strong>Data → Information → Knowledge → Wisdom</strong></p>
+                    <p>Our platform transforms raw production data into actionable insights, enabling informed decision-making at every stage.</p>
+                </div>
+
+                <div class="section-card">
+                    <h3>🏗️ System Architecture</h3>
+                    <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2083ebf13a9a1182c61c2dd0dd20dc0d/c8143fae-846f-44e9-a0d5-8167636dbb85/df6d2a7c.png" alt="System Architecture" class="architecture-image">
+                    <p style="margin-top: 1rem;">Three-tier architecture ensuring scalability, security, and real-time collaboration.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Issues Page -->
+        <div class="page" id="issues-page">
+            <header class="page-header">
+                <h1>Issue Tracking</h1>
+                <div class="header-actions">
+                    <button class="btn-primary" onclick="alert('New issue creation form would appear')">+ New Issue</button>
+                </div>
+            </header>
+
+            <div class="issues-stats">
+                <div class="stat-box">
+                    <div class="stat-number">90</div>
+                    <div class="stat-label">Total Issues</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number success">86</div>
+                    <div class="stat-label">Resolved</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number warning">4</div>
+                    <div class="stat-label">In Progress</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number error">0</div>
+                    <div class="stat-label">Open</div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h3>📋 Recent Issues</h3>
+                <div class="issues-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Issue ID</th>
+                                <th>Project</th>
+                                <th>Description</th>
+                                <th>Severity</th>
+                                <th>Department</th>
+                                <th>Status</th>
+                                <th>Resolution Time</th>
+                            </tr>
+                        </thead>
+                        <tbody id="issuesTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Notification Toast -->
+    <div class="notification-toast" id="notificationToast"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
