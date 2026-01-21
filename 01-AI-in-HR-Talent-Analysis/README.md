@@ -10,15 +10,11 @@ This project explores the transformative impact of Artificial Intelligence on Hu
 
 ---
 
-## Team Members
+## Developer
 
-| S.No | Member Name | Registration No |
-|------|-------------|------------------|
-| 1 | Omkar Gurav | PROVASOBMBA725601 |
-| 2 | Agnel Rebecca | PROVASOBMBA725594 |
-| 3 | Reegan Abishek A | PROVASOBMBA725615 |
-| 4 | Vaishnavi | PROVASOBMBA725609 |
-| 5 | Mohak | PROVASOBMBA725616 |
+**Omkar Gurav** - AI for Managers Project | MBA Student, Alliance University
+
+
 
 ---
 
