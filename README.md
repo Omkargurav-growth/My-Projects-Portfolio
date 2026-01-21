@@ -52,6 +52,32 @@ This repository is organized to showcase projects across different phases of my 
 
 *Projects will be organized by category and linked as they are uploaded to this repository.*
 
+### 01. AI in Human Resources: Talent Analysis & Resume Screening
+
+**Course:** MBA - AI For Managers | **Semester:** 2, 2025-2026  
+**Team:** Omkar Gurav, Agnel Rebecca, Reegan Abishek A, Vaishnavi, Mohak  
+**Focus:** AI-powered recruitment, talent analysis, bias mitigation  
+
+**Project Highlights:**
+- Comprehensive study on AI's impact on HR management
+- Interactive Mavericks International AI Hiring Platform demo
+- Resume screening automation using NLP and machine learning
+- Ethical considerations and bias mitigation strategies
+- Real-world applications from Big 4 consulting firms
+
+**Deliverables:**
+- [Project README](./01-AI-in-HR-Talent-Analysis/README.md) - Detailed analysis and findings
+- [Interactive Platform](./01-AI-in-HR-Talent-Analysis/AI-Hiring-Platform.html) - Mavericks International Demo
+- Research Documentation - Comprehensive project report
+
+**Key Insights:**
+- AI reduces time-to-hire by 40-60%
+- Cost reduction in screening: 50-70%
+- Significant bias reduction in hiring decisions
+- Enhanced candidate experience through automation
+
+---
+
 ---
 
 ## Education
