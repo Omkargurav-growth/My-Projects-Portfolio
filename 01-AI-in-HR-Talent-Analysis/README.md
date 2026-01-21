@@ -6,8 +6,7 @@ This project explores the transformative impact of Artificial Intelligence on Hu
 
 **Course:** MBA - AI For Managers  
 **Submitted to:** Dr. Gowtham Kundu  
-**Date:** Semester 2, 2025-2026
-
+**Date:** Semester 1, 2025
 ---
 
 ## Developer
