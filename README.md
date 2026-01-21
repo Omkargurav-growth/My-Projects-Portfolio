@@ -54,7 +54,7 @@ This repository is organized to showcase projects across different phases of my 
 
 ### 01. AI in Human Resources: Talent Analysis & Resume Screening
 
-**Course:** MBA - AI For Managers | **Semester:** 2, 2025-2026  
+**Course:** MBA - AI For Managers | **Semester:** 2, 2025  
 **Developer:** Omkar Gurav
 **Focus:** AI-powered recruitment, talent analysis, bias mitigation  
 
