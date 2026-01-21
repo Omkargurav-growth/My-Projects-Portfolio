@@ -104,7 +104,7 @@ This repository is organized to showcase projects across different phases of my 
 - **Establish thought leadership** in e-commerce product management and growth marketing through portfolio & content creation
 ---
 
-## 📚 Areas of Expertise
+##  Areas of Expertise
 
 ✅ **Product Management** - PRDs, Product Roadmaps, RICE Prioritization, User Journey Mapping
 ✅ **A/B Testing & Growth Experiments** - Experimental Design, Growth Hacking, Conversion Rate Optimization
@@ -117,7 +117,7 @@ This repository is organized to showcase projects across different phases of my 
 
 ---
 
-## 🔗 Connect With Me
+##  Connect With Me
 
 - **LinkedIn:** [Omkar Gurav](https://linkedin.com/in/omkar-gurav)
 - **Email:** omkargurav.growth@gmail.com
@@ -125,7 +125,7 @@ This repository is organized to showcase projects across different phases of my 
 
 ---
 
-## 📝 Usage Instructions
+##  Usage Instructions
 
 Feel free to explore the projects in this repository. Each project folder contains:
 - **README.md** - Project overview and objectives
