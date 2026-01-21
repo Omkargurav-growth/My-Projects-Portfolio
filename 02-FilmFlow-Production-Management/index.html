@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFlow360 - Film Production Management Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo-container">
+            <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream/images/c62b357a-a7ac-4a03-9440-300d53f66875.png" alt="FilmFlow360 Logo" class="logo">
+            <h2 class="logo-text">FilmFlow360</h2>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#" class="nav-link active" data-page="dashboard">📊 Dashboard</a></li>
+            <li><a href="#" class="nav-link" data-page="projects">📁 Projects</a></li>
+            <li><a href="#" class="nav-link" data-page="bottlenecks">⚠️ Bottlenecks</a></li>
+            <li><a href="#" class="nav-link" data-page="team">👥 Team</a></li>
+            <li><a href="#" class="nav-link" data-page="reports">📈 Reports</a></li>
+            <li><a href="#" class="nav-link" data-page="issues">🐛 Issues</a></li>
+        </ul>
+        <div class="user-profile">
+            <div class="user-avatar"></div>
+            <div class="user-info">
+                <div class="user-name" id="currentUserName">Admin User</div>
+                <div class="user-role" id="currentUserRole">System Administrator</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Dashboard Page -->
+        <div class="page active" id="dashboard-page">
+            <header class="page-header">
+                <h1>Dashboard</h1>
+                <p class="tagline">From Script to Screen, Seamlessly</p>
+            </header>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">📊</div>
+                    <div class="metric-content">
+                        <div class="metric-value">13</div>
+                        <div class="metric-label">Total Projects</div>
+                        <div class="metric-detail">10 Completed, 3 Ongoing</div>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">⏱️</div>
+                    <div class="metric-content">
+                        <div class="metric-value">60%</div>
+                        <div class="metric-label">Timeline Reduction</div>
+                        <div class="metric-detail">Average improvement</div>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">👥</div>
+                    <div class="metric-content">
+                        <div class="metric-value">10</div>
+                        <div class="metric-label">Active Users</div>
+                        <div class="metric-detail">Departments connected</div>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">✅</div>
+                    <div class="metric-content">
+                        <div class="metric-value">95%</div>
+                        <div class="metric-label">Issues Resolved</div>
+                        <div class="metric-detail">86 of 90 total issues</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
