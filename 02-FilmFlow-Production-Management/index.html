@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFlow Pro - Enterprise Film Production Management Platform</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #0f1419 0%, #1a2332 100%); color: #e0e0e0; overflow-x: hidden; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        header { text-align: center; margin-bottom: 3rem; }
+        h1 { font-size: 3rem; background: linear-gradient(135deg, #2196F3 0%, #00BCD4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1rem; }
+        .subtitle { font-size: 1.2rem; color: #999; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
+        .feature-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 15px; padding: 2rem; text-align: center; transition: all 0.3s; }
+        .feature-card:hover { background: rgba(255, 255, 255, 0.05); border-color: #2196F3; box-shadow: 0 10px 30px rgba(33, 150, 243, 0.2); }
+        .feature-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .feature-title { font-size: 1.3rem; margin-bottom: 0.5rem; color: #2196F3; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 3rem 0; }
+        .stat-box { background: rgba(33, 150, 243, 0.1); border: 1px solid #2196F3; border-radius: 10px; padding: 1.5rem; text-align: center; }
+        .stat-number { font-size: 2.5rem; font-weight: 700; color: #06b6d4; }
+        .stat-label { color: #999; margin-top: 0.5rem; }
+        .section { margin: 3rem 0; padding: 2rem; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 15px; }
+        .section h2 { color: #2196F3; margin-bottom: 1rem; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+        th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        th { background: rgba(33, 150, 243, 0.1); color: #2196F3; }
+        .login-demo { background: rgba(76, 175, 80, 0.1); border-left: 3px solid #4CAF50; padding: 1.5rem; margin: 1rem 0; border-radius: 5px; }
+        .button { display: inline-block; background: linear-gradient(135deg, #2196F3 0%, #00BCD4 100%); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; margin: 1rem 0.5rem 1rem 0; font-weight: 600; transition: all 0.3s; }
+        .button:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(33, 150, 243, 0.3); }
+        .footer { text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255, 255, 255, 0.1); color: #999; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FilmFlow Pro</h1>
+            <p class="subtitle">Enterprise Film Production Management Platform</p>
+            <p style="color: #06b6d4; margin-top: 1rem; font-size: 0.9rem;">Reduce production timelines by 50-80% through AI-powered project management</p>
+        </header>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <div class="feature-title">Real-Time Analytics</div>
+                <p>Comprehensive dashboards tracking project progress, bottleneck detection, and predictive delay alerts</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🤖</div>
+                <div class="feature-title">AI-Powered Insights</div>
+                <p>Machine learning identifies bottlenecks 3-5 days in advance enabling proactive management</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <div class="feature-title">Multi-Role Access</div>
+                <p>Customized views for Producer, Director, Editor, DOP, Sound Designer, VFX Artist, and Admin roles</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚙️</div>
+                <div class="feature-title">Workflow Automation</div>
+                <p>Automated notifications, task assignments, and status updates across all departments</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔐</div>
+                <div class="feature-title">Enterprise Security</div>
+                <p>AES-256 encryption, GDPR compliance, automated backups, and disaster recovery plans</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <div class="feature-title">Cloud-Based Platform</div>
+                <p>Access from anywhere - web dashboard and mobile app with real-time synchronization</p>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">50-80%</div>
+                <div class="stat-label">Timeline Reduction</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">90%</div>
+                <div class="stat-label">Bottleneck Detection</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">13</div>
+                <div class="stat-label">Projects Managed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Active Users</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Key Bottlenecks Identified & Solved</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bottleneck Area</th>
+                        <th>Frequency</th>
+                        <th>Avg Delay</th>
+                        <th>Impact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Post-Production Editing</td>
+                        <td>90%</td>
+                        <td>5 days</td>
+                        <td>Highest - Complex VFX & revisions</td>
+                    </tr>
+                    <tr>
+                        <td>Script Development</td>
+                        <td>85%</td>
+                        <td>3 days</td>
+                        <td>Multiple revisions & unclear vision</td>
+                    </tr>
+                    <tr>
+                        <td>Shooting Coordination</td>
+                        <td>75%</td>
+                        <td>4 days</td>
+                        <td>Weather, permits, crew scheduling</td>
+                    </tr>
+                    <tr>
+                        <td>Casting Process</td>
+                        <td>70%</td>
+                        <td>2 days</td>
+                        <td>Actor availability conflicts</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Sample Login Credentials (Demo Purpose)</h2>
+            <div class="login-demo">
+                <strong>Producer:</strong> rajeshfilmflow.com / FilmFlow123<br>
+                <strong>Director:</strong> priyafilmflow.com / FilmFlow123<br>
+                <strong>Editor:</strong> nehafilmflow.com / FilmFlow123<br>
+                <strong>Admin:</strong> adminfilmflow.com / Admin123
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Project Statistics</h2>
+            <ul style="list-style: none; margin: 1rem 0;">
+                <li>✅ 10 Completed Projects</li>
+                <li>✅ 3 Ongoing Projects (68% avg completion)</li>
+                <li>✅ 90 Issues Tracked & 86 Resolved</li>
+                <li>✅ 50 High-Quality Video Assets</li>
+                <li>✅ 10 Department Teams Connected</li>
+                <li>✅ Real-Time Collaboration Tools</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technology Stack</h2>
+            <p>Frontend: HTML5, CSS3, JavaScript | Architecture: Three-Tier Cloud System<br>
+            Analytics: PERT Model, Bottleneck Detection AI | Security: AES-256, GDPR Compliant</p>
+        </div>
+
+        <div style="text-align: center; margin: 2rem 0;">
+            <a href="https://github.com/Omkargurav-growth/My-Projects-Portfolio/tree/main/02-FilmFlow-Production-Management" class="button">View on GitHub</a>
+            <a href="https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/main/02-FilmFlow-Production-Management/README.md" class="button">Project Documentation</a>
+        </div>
+
+        <div class="footer">
+            <p><strong>FilmFlow360 Productions India Pvt. Ltd.</strong></p>
+            <p>Founder & CEO: Mr. Omkar Tanaji Gurav | Co-Founder & CTO: Mr. Arnav Lai</p>
+            <p>Location: Bangalore, Karnataka, India | Support: support@filmflow360.com | 91-9112128150</p>
+            <p style="margin-top: 1rem; color: #666;">© 2025 FilmFlow360. All rights reserved. | Status: Complete Project with Live Interactive Demo</p>
+        </div>
+    </div>
+</body>
+</html>
