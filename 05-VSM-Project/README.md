@@ -17,8 +17,9 @@ This project focuses on Value Stream Mapping analysis for optimizing manufacturi
 
 ## Key Files
 
-- **VSM-Presentation-On-Brush-Holder.pptx** - Detailed presentation on the VSM analysis
-- **VSM-DATA.xlsx** - Supporting data and analytics
+- **[VSM-Presentation-On-Brush-Holder.pptx](VSM-Presentation-On-Brush-Holder.pptx)** - Detailed presentation on the VSM analysis
+- **[VSM Process Flow Base Unit.ppt](VSM%20Process%20Flow%20Base%20Unit.ppt)** - Process flow diagram and operations
+- **[VSM-DATA.xlsx](VSM%20DATA.xlsx)** - Supporting data and analytics
 
 ## Key Metrics
 
