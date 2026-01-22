@@ -1,18 +1,18 @@
 # Project 05 - Value Stream Mapping (VSM) Project
 
-## 🎯 Project Overview
+## Project Overview
 
 This project showcases a comprehensive **Value Stream Mapping (VSM)** analysis for optimizing manufacturing processes at **Valeo India Pvt. Ltd, Pune**. Value Stream Mapping is a lean management technique used to identify and eliminate waste in production systems, thereby increasing efficiency and productivity.
 
 ### Key Objectives
-- Analyze current state manufacturing process
+- Analyze the current state manufacturing process
 - Identify value-added and non-value-added activities
 - Design future state for waste elimination
 - Implement continuous improvement initiatives
 
 ---
 
-## 📋 Project Information
+## Project Information
 
 | Detail | Description |
 |--------|-------------|
@@ -25,7 +25,7 @@ This project showcases a comprehensive **Value Stream Mapping (VSM)** analysis f
 
 ---
 
-## 📊 Key Metrics & Performance Data
+## Key Metrics & Performance Data
 
 ### Production Performance
 - **Standard Takt Time:** 37.762 sec/part
@@ -45,7 +45,7 @@ This project showcases a comprehensive **Value Stream Mapping (VSM)** analysis f
 
 ---
 
-## 🔍 Identified Wastes (7 Types of Muda)
+## Identified Wastes (7 Types of Muda)
 
 1. **Faster-than-Necessary Pace** - Overproduction issues
 2. **Waiting Time** - Material transportation delays
@@ -57,7 +57,7 @@ This project showcases a comprehensive **Value Stream Mapping (VSM)** analysis f
 
 ---
 
-## 💡 Areas of Improvement
+## Areas of Improvement
 
 ### High Priority Improvements
 
@@ -88,7 +88,7 @@ This project showcases a comprehensive **Value Stream Mapping (VSM)** analysis f
 
 ---
 
-## 📁 Project Deliverables
+## Project Deliverables
 
 This project includes comprehensive documentation and analysis:
 
@@ -104,7 +104,7 @@ This project includes comprehensive documentation and analysis:
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates expertise in:
 
@@ -135,7 +135,7 @@ This project demonstrates expertise in:
 
 ---
 
-## 🔧 Technical Skills Applied
+## Technical Skills Applied
 
 - Value Stream Mapping (VSM)
 - Lean Six Sigma methodologies
@@ -148,7 +148,7 @@ This project demonstrates expertise in:
 
 ---
 
-## 📈 Expected Results & Impact
+##  Expected Results & Impact
 
 Implementing the identified improvements can potentially achieve:
 
@@ -161,7 +161,7 @@ Implementing the identified improvements can potentially achieve:
 
 ---
 
-## 📚 Applicable Knowledge Areas
+##  Applicable Knowledge Areas
 
 **For MBA Students with focus on:**
 - Operations & Supply Chain Management
@@ -172,16 +172,16 @@ Implementing the identified improvements can potentially achieve:
 
 ---
 
-## 🏆 Project Status
+##  Project Status
 
-**Status:** ✅ Completed  
+**Status:**  Completed  
 **Date Created:** January 2026  
 **Last Updated:** January 22, 2026  
 **Next Review:** Q1 2026  
 
 ---
 
-## 📞 About This Project
+##  About This Project
 
 This comprehensive VSM project demonstrates practical application of lean management principles in a real manufacturing environment. The analysis identifies significant opportunities for waste elimination and efficiency improvement that can translate into measurable cost savings and operational excellence.
 
