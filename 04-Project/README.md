@@ -8,7 +8,7 @@ This folder contains comprehensive documentation of two significant MBA projects
 ## Project Files
 
 ### 1. **SDG Project: Alliance NeerSetu**
- **File**: [`01_SDG-Project-NatureSync-Alliance.md`](./01_SDG-Project-NatureSync-Alliance.md)  
+ **File**: (https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/9aa130b54a9e2ca0568df6c6bb5c029e3b6d0377/04-Project/SDG%20Project%20Report%20-%20NatureSync%20Alliance.pdf)  
 **Original Document**: SDG-Project-Report-NatureSync-Alliance.pdf  
 **Submitted**: August 7, 2025
 
@@ -32,12 +32,12 @@ This folder contains comprehensive documentation of two significant MBA projects
 - Data-driven policy recommendations
 - Scalable model for other lakes in the region
 
-**[Read Full Documentation →](./01_SDG-Project-NatureSync-Alliance.md)**
+**[Read Full Documentation →](https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/9aa130b54a9e2ca0568df6c6bb5c029e3b6d0377/04-Project/SDG%20Project%20Report%20-%20NatureSync%20Alliance.pdf)**
 
 ---
 
 ### 2. **DSA Project: Red Sea Crisis Communication Analysis**
- **File**: [`02_Red-Sea-Crisis-Audi-India-DSA.md`](./02_Red-Sea-Crisis-Audi-India-DSA.md)  
+ **File**: (https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/9aa130b54a9e2ca0568df6c6bb5c029e3b6d0377/04-Project/SDG%20Project%20Report%20-%20NatureSync%20Alliance.pdf)  
 **Original Document**: SDG-Project-Report_By_NatureSync-Alliance.docx  
 **Submitted**: October 7, 2025
 
@@ -77,7 +77,7 @@ This folder contains comprehensive documentation of two significant MBA projects
 4. Enhanced international customer relations
 5. Media and regulatory collaboration protocols
 
-**[Read Full Documentation →](./02_Red-Sea-Crisis-Audi-India-DSA.md)**
+**[Read Full Documentation →](https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/9aa130b54a9e2ca0568df6c6bb5c029e3b6d0377/04-Project/SDG%20Project%20Report%20-%20NatureSync%20Alliance.pdf)**
 
 ---
 
@@ -150,9 +150,8 @@ This folder contains comprehensive documentation of two significant MBA projects
 
 ##  Quick Links
 
-- [Read SDG Project Summary](./01_SDG-Project-NatureSync-Alliance.md)
-- [Read DSA Project Summary](./02_Red-Sea-Crisis-Audi-India-DSA.md)
-- [Back to Portfolio](../)
+- [Read SDG Project Summary](https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/9aa130b54a9e2ca0568df6c6bb5c029e3b6d0377/04-Project/SDG%20Project%20Report%20-%20NatureSync%20Alliance.pdf)
+
 
 ---
 
