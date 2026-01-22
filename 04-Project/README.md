@@ -1,4 +1,4 @@
-# Project 04 - MBA Projects Portfolio
+# Project 04 - SDG Project
 
 ## Project Overview
 This folder contains comprehensive documentation of two significant MBA projects completed as part of the coursework at Alliance School of Business. Both projects demonstrate expertise in sustainable development, crisis management, and stakeholder communication.
