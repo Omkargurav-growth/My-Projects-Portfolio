@@ -1,14 +1,14 @@
 # Project 04 - MBA Projects Portfolio
 
-## 📋 Project Overview
+## Project Overview
 This folder contains comprehensive documentation of two significant MBA projects completed as part of the coursework at Alliance School of Business. Both projects demonstrate expertise in sustainable development, crisis management, and stakeholder communication.
 
 ---
 
-## 📁 Project Files
+## Project Files
 
 ### 1. **SDG Project: Alliance NeerSetu**
-📄 **File**: [`01_SDG-Project-NatureSync-Alliance.md`](./01_SDG-Project-NatureSync-Alliance.md)  
+ **File**: [`01_SDG-Project-NatureSync-Alliance.md`](./01_SDG-Project-NatureSync-Alliance.md)  
 **Original Document**: SDG-Project-Report-NatureSync-Alliance.pdf  
 **Submitted**: August 7, 2025
 
@@ -37,7 +37,7 @@ This folder contains comprehensive documentation of two significant MBA projects
 ---
 
 ### 2. **DSA Project: Red Sea Crisis Communication Analysis**
-📄 **File**: [`02_Red-Sea-Crisis-Audi-India-DSA.md`](./02_Red-Sea-Crisis-Audi-India-DSA.md)  
+ **File**: [`02_Red-Sea-Crisis-Audi-India-DSA.md`](./02_Red-Sea-Crisis-Audi-India-DSA.md)  
 **Original Document**: SDG-Project-Report_By_NatureSync-Alliance.docx  
 **Submitted**: October 7, 2025
 
@@ -81,7 +81,7 @@ This folder contains comprehensive documentation of two significant MBA projects
 
 ---
 
-## 🎯 Project Comparison
+##  Project Comparison
 
 | Aspect | SDG Project | DSA Project |
 |--------|------------|-------------|
@@ -93,7 +93,7 @@ This folder contains comprehensive documentation of two significant MBA projects
 
 ---
 
-## 📊 Key Learnings
+##  Key Learnings
 
 ### SDG Project Insights:
 - Community engagement is non-negotiable for sustainability
@@ -109,7 +109,7 @@ This folder contains comprehensive documentation of two significant MBA projects
 
 ---
 
-## 👥 Collaboration
+## Collaboration
 
 ### SDG Project Team:
 - Pratik Dhurandhar (Project Lead)
@@ -127,14 +127,14 @@ This folder contains comprehensive documentation of two significant MBA projects
 
 ---
 
-## 📈 Project Status
+##  Project Status
 
 ✅ **SDG Project**: Completed - Prototype demonstrated at Solutions for Change Summit  
 ✅ **DSA Project**: Completed - Comprehensive analysis with strategic recommendations
 
 ---
 
-## 📚 References & Resources
+##  References & Resources
 
 ### For SDG Project:
 - Complete Report: SDG-Project-Report-NatureSync-Alliance.pdf
@@ -148,7 +148,7 @@ This folder contains comprehensive documentation of two significant MBA projects
 
 ---
 
-## 🔗 Quick Links
+##  Quick Links
 
 - [Read SDG Project Summary](./01_SDG-Project-NatureSync-Alliance.md)
 - [Read DSA Project Summary](./02_Red-Sea-Crisis-Audi-India-DSA.md)
@@ -156,13 +156,13 @@ This folder contains comprehensive documentation of two significant MBA projects
 
 ---
 
-## 📝 Notes
+##  Notes
 
 Both projects showcase the application of MBA concepts to real-world challenges:
 - **SDG Project**: Combines sustainability, innovation, and social impact
 - **DSA Project**: Demonstrates strategic thinking in crisis management and communication
 
-These projects represent significant learning experiences in project management, stakeholder engagement, and data-driven decision making.
+These projects represent significant learning experiences in project management, stakeholder engagement, and data-driven decision-making.
 
 **Last Updated**: January 22, 2026  
 **Status**: Completed and Documented  
