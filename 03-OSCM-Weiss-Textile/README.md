@@ -10,12 +10,12 @@
 
 ### Project Highlights
 
-✅ **In-depth supply chain analysis** of garment manufacturing operations  
-✅ **Production workflow optimization** reducing timeline delays by 60%  
-✅ **Facility layout redesign** with dedicated zones and aisle markings  
-✅ **Inventory management improvements** using FIFO and SAP HANA integration  
-✅ **Cost-benefit analysis** with 1.7-year payback period  
-✅ **Comprehensive costing analysis** for implementation ($56.26 lakhs)  
+ **In-depth supply chain analysis** of garment manufacturing operations  
+ **Production workflow optimization** reducing timeline delays by 60%  
+ **Facility layout redesign** with dedicated zones and aisle markings  
+ **Inventory management improvements** using FIFO and SAP HANA integration  
+ **Cost-benefit analysis** with 1.7-year payback period  
+ **Comprehensive costing analysis** for implementation ($56.26 lakhs)  
 
 ### Key Solutions Implemented
 
@@ -110,7 +110,7 @@ This case study demonstrates how SMEs in competitive global markets can leverage
 
 ### Future Enhancements
 
-🔮 **Industry 4.0 Integration:**
+ **Industry 4.0 Integration:**
 - IoT-based real-time monitoring
 - AI-driven predictive analytics
 - Automated anomaly detection
@@ -128,4 +128,4 @@ Weiss Textile is a reputed garment manufacturing company specializing in:
 
 **Report Submitted:** 27th September, 2025  
 **Institution:** Alliance School of Business, MBA Class of 2025-27  
-**Status:** ✅ Complete
+**Status:**  Complete
