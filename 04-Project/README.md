@@ -9,8 +9,7 @@ This folder contains comprehensive documentation of two significant MBA projects
 
 ### 1. **SDG Project: Alliance NeerSetu**
  **File**: (https://github.com/Omkargurav-growth/My-Projects-Portfolio/blob/9aa130b54a9e2ca0568df6c6bb5c029e3b6d0377/04-Project/SDG%20Project%20Report%20-%20NatureSync%20Alliance.pdf)  
-**Original Document**: SDG-Project-Report-NatureSync-Alliance.pdf  
-**Submitted**: August 7, 2025
+**Original Document**: [SDG-Project-Report-NatureSync-Alliance.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/82473746/02c90d4a-83d9-4547-bcb5-21783841c58b/SDG-Project-Report-NatureSync-Alliance.pdf)**Submitted**: August 7, 2025
 
 #### Key Details:
 - **Title**: From Degradation to Development - Converting Lakes into Rural Lifelines
